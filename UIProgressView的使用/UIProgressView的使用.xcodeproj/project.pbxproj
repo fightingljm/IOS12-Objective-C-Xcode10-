@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA688000230A51720040F133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA687FFF230A51720040F133 /* AppDelegate.m */; };
+		AA688003230A51720040F133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA688002230A51720040F133 /* ViewController.m */; };
+		AA688006230A51720040F133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA688004230A51720040F133 /* Main.storyboard */; };
+		AA688008230A51720040F133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA688007230A51720040F133 /* Assets.xcassets */; };
+		AA68800B230A51720040F133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA688009230A51720040F133 /* LaunchScreen.storyboard */; };
+		AA68800E230A51720040F133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA68800D230A51720040F133 /* main.m */; };
+		AA688018230A51730040F133 /* UIProgressView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA688017230A51730040F133 /* UIProgressView___Tests.m */; };
+		AA688023230A51730040F133 /* UIProgressView___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA688022230A51730040F133 /* UIProgressView___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA688014230A51730040F133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA687FF3230A51720040F133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA687FFA230A51720040F133;
+			remoteInfo = "UIProgressView的使用";
+		};
+		AA68801F230A51730040F133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA687FF3230A51720040F133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA687FFA230A51720040F133;
+			remoteInfo = "UIProgressView的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA687FFB230A51720040F133 /* UIProgressView的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIProgressView的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA687FFE230A51720040F133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA687FFF230A51720040F133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA688001230A51720040F133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA688002230A51720040F133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA688005230A51720040F133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA688007230A51720040F133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA68800A230A51720040F133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA68800C230A51720040F133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA68800D230A51720040F133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA688013230A51730040F133 /* UIProgressView的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIProgressView的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA688017230A51730040F133 /* UIProgressView___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView___Tests.m"; sourceTree = "<group>"; };
+		AA688019230A51730040F133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA68801E230A51730040F133 /* UIProgressView的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIProgressView的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA688022230A51730040F133 /* UIProgressView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView___UITests.m"; sourceTree = "<group>"; };
+		AA688024230A51730040F133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA687FF8230A51720040F133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA688010230A51730040F133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA68801B230A51730040F133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA687FF2230A51720040F133 = {
+			isa = PBXGroup;
+			children = (
+				AA687FFD230A51720040F133 /* UIProgressView的使用 */,
+				AA688016230A51730040F133 /* UIProgressView的使用Tests */,
+				AA688021230A51730040F133 /* UIProgressView的使用UITests */,
+				AA687FFC230A51720040F133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA687FFC230A51720040F133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA687FFB230A51720040F133 /* UIProgressView的使用.app */,
+				AA688013230A51730040F133 /* UIProgressView的使用Tests.xctest */,
+				AA68801E230A51730040F133 /* UIProgressView的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA687FFD230A51720040F133 /* UIProgressView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				AA687FFE230A51720040F133 /* AppDelegate.h */,
+				AA687FFF230A51720040F133 /* AppDelegate.m */,
+				AA688001230A51720040F133 /* ViewController.h */,
+				AA688002230A51720040F133 /* ViewController.m */,
+				AA688004230A51720040F133 /* Main.storyboard */,
+				AA688007230A51720040F133 /* Assets.xcassets */,
+				AA688009230A51720040F133 /* LaunchScreen.storyboard */,
+				AA68800C230A51720040F133 /* Info.plist */,
+				AA68800D230A51720040F133 /* main.m */,
+			);
+			path = "UIProgressView的使用";
+			sourceTree = "<group>";
+		};
+		AA688016230A51730040F133 /* UIProgressView的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA688017230A51730040F133 /* UIProgressView___Tests.m */,
+				AA688019230A51730040F133 /* Info.plist */,
+			);
+			path = "UIProgressView的使用Tests";
+			sourceTree = "<group>";
+		};
+		AA688021230A51730040F133 /* UIProgressView的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA688022230A51730040F133 /* UIProgressView___UITests.m */,
+				AA688024230A51730040F133 /* Info.plist */,
+			);
+			path = "UIProgressView的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA687FFA230A51720040F133 /* UIProgressView的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA688027230A51730040F133 /* Build configuration list for PBXNativeTarget "UIProgressView的使用" */;
+			buildPhases = (
+				AA687FF7230A51720040F133 /* Sources */,
+				AA687FF8230A51720040F133 /* Frameworks */,
+				AA687FF9230A51720040F133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIProgressView的使用";
+			productName = "UIProgressView的使用";
+			productReference = AA687FFB230A51720040F133 /* UIProgressView的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA688012230A51730040F133 /* UIProgressView的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA68802A230A51730040F133 /* Build configuration list for PBXNativeTarget "UIProgressView的使用Tests" */;
+			buildPhases = (
+				AA68800F230A51730040F133 /* Sources */,
+				AA688010230A51730040F133 /* Frameworks */,
+				AA688011230A51730040F133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA688015230A51730040F133 /* PBXTargetDependency */,
+			);
+			name = "UIProgressView的使用Tests";
+			productName = "UIProgressView的使用Tests";
+			productReference = AA688013230A51730040F133 /* UIProgressView的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA68801D230A51730040F133 /* UIProgressView的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA68802D230A51730040F133 /* Build configuration list for PBXNativeTarget "UIProgressView的使用UITests" */;
+			buildPhases = (
+				AA68801A230A51730040F133 /* Sources */,
+				AA68801B230A51730040F133 /* Frameworks */,
+				AA68801C230A51730040F133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA688020230A51730040F133 /* PBXTargetDependency */,
+			);
+			name = "UIProgressView的使用UITests";
+			productName = "UIProgressView的使用UITests";
+			productReference = AA68801E230A51730040F133 /* UIProgressView的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA687FF3230A51720040F133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "刘金萌";
+				TargetAttributes = {
+					AA687FFA230A51720040F133 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AA688012230A51730040F133 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AA687FFA230A51720040F133;
+					};
+					AA68801D230A51730040F133 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AA687FFA230A51720040F133;
+					};
+				};
+			};
+			buildConfigurationList = AA687FF6230A51720040F133 /* Build configuration list for PBXProject "UIProgressView的使用" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA687FF2230A51720040F133;
+			productRefGroup = AA687FFC230A51720040F133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA687FFA230A51720040F133 /* UIProgressView的使用 */,
+				AA688012230A51730040F133 /* UIProgressView的使用Tests */,
+				AA68801D230A51730040F133 /* UIProgressView的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA687FF9230A51720040F133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA68800B230A51720040F133 /* LaunchScreen.storyboard in Resources */,
+				AA688008230A51720040F133 /* Assets.xcassets in Resources */,
+				AA688006230A51720040F133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA688011230A51730040F133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA68801C230A51730040F133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA687FF7230A51720040F133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA688003230A51720040F133 /* ViewController.m in Sources */,
+				AA68800E230A51720040F133 /* main.m in Sources */,
+				AA688000230A51720040F133 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA68800F230A51730040F133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA688018230A51730040F133 /* UIProgressView___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA68801A230A51730040F133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA688023230A51730040F133 /* UIProgressView___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA688015230A51730040F133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA687FFA230A51720040F133 /* UIProgressView的使用 */;
+			targetProxy = AA688014230A51730040F133 /* PBXContainerItemProxy */;
+		};
+		AA688020230A51730040F133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA687FFA230A51720040F133 /* UIProgressView的使用 */;
+			targetProxy = AA68801F230A51730040F133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA688004230A51720040F133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA688005230A51720040F133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA688009230A51720040F133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA68800A230A51720040F133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA688025230A51730040F133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA688026230A51730040F133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA688028230A51730040F133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIProgressView的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIProgressView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA688029230A51730040F133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIProgressView的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIProgressView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA68802B230A51730040F133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIProgressView的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIProgressView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIProgressView的使用.app/UIProgressView的使用";
+			};
+			name = Debug;
+		};
+		AA68802C230A51730040F133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIProgressView的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIProgressView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIProgressView的使用.app/UIProgressView的使用";
+			};
+			name = Release;
+		};
+		AA68802E230A51730040F133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIProgressView的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIProgressView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIProgressView的使用";
+			};
+			name = Debug;
+		};
+		AA68802F230A51730040F133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIProgressView的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIProgressView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIProgressView的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA687FF6230A51720040F133 /* Build configuration list for PBXProject "UIProgressView的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA688025230A51730040F133 /* Debug */,
+				AA688026230A51730040F133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA688027230A51730040F133 /* Build configuration list for PBXNativeTarget "UIProgressView的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA688028230A51730040F133 /* Debug */,
+				AA688029230A51730040F133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA68802A230A51730040F133 /* Build configuration list for PBXNativeTarget "UIProgressView的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA68802B230A51730040F133 /* Debug */,
+				AA68802C230A51730040F133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA68802D230A51730040F133 /* Build configuration list for PBXNativeTarget "UIProgressView的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA68802E230A51730040F133 /* Debug */,
+				AA68802F230A51730040F133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA687FF3230A51720040F133 /* Project object */;
+}

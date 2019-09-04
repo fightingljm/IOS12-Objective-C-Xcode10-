@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA687FC2230A4F360040F133 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA687FC1230A4F360040F133 /* AppDelegate.m */; };
+		AA687FC5230A4F360040F133 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA687FC4230A4F360040F133 /* ViewController.m */; };
+		AA687FC8230A4F360040F133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA687FC6230A4F360040F133 /* Main.storyboard */; };
+		AA687FCA230A4F370040F133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA687FC9230A4F370040F133 /* Assets.xcassets */; };
+		AA687FCD230A4F370040F133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA687FCB230A4F370040F133 /* LaunchScreen.storyboard */; };
+		AA687FD0230A4F370040F133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA687FCF230A4F370040F133 /* main.m */; };
+		AA687FDA230A4F370040F133 /* UIActivityIndicatorView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA687FD9230A4F370040F133 /* UIActivityIndicatorView___Tests.m */; };
+		AA687FE5230A4F370040F133 /* UIActivityIndicatorView___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA687FE4230A4F370040F133 /* UIActivityIndicatorView___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA687FD6230A4F370040F133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA687FB5230A4F360040F133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA687FBC230A4F360040F133;
+			remoteInfo = "UIActivityIndicatorView的使用";
+		};
+		AA687FE1230A4F370040F133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA687FB5230A4F360040F133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA687FBC230A4F360040F133;
+			remoteInfo = "UIActivityIndicatorView的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA687FBD230A4F360040F133 /* UIActivityIndicatorView的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIActivityIndicatorView的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA687FC0230A4F360040F133 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA687FC1230A4F360040F133 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA687FC3230A4F360040F133 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA687FC4230A4F360040F133 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA687FC7230A4F360040F133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA687FC9230A4F370040F133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA687FCC230A4F370040F133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA687FCE230A4F370040F133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA687FCF230A4F370040F133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA687FD5230A4F370040F133 /* UIActivityIndicatorView的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIActivityIndicatorView的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA687FD9230A4F370040F133 /* UIActivityIndicatorView___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView___Tests.m"; sourceTree = "<group>"; };
+		AA687FDB230A4F370040F133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA687FE0230A4F370040F133 /* UIActivityIndicatorView的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIActivityIndicatorView的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA687FE4230A4F370040F133 /* UIActivityIndicatorView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView___UITests.m"; sourceTree = "<group>"; };
+		AA687FE6230A4F370040F133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA687FBA230A4F360040F133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA687FD2230A4F370040F133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA687FDD230A4F370040F133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA687FB4230A4F360040F133 = {
+			isa = PBXGroup;
+			children = (
+				AA687FBF230A4F360040F133 /* UIActivityIndicatorView的使用 */,
+				AA687FD8230A4F370040F133 /* UIActivityIndicatorView的使用Tests */,
+				AA687FE3230A4F370040F133 /* UIActivityIndicatorView的使用UITests */,
+				AA687FBE230A4F360040F133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA687FBE230A4F360040F133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA687FBD230A4F360040F133 /* UIActivityIndicatorView的使用.app */,
+				AA687FD5230A4F370040F133 /* UIActivityIndicatorView的使用Tests.xctest */,
+				AA687FE0230A4F370040F133 /* UIActivityIndicatorView的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA687FBF230A4F360040F133 /* UIActivityIndicatorView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				AA687FC0230A4F360040F133 /* AppDelegate.h */,
+				AA687FC1230A4F360040F133 /* AppDelegate.m */,
+				AA687FC3230A4F360040F133 /* ViewController.h */,
+				AA687FC4230A4F360040F133 /* ViewController.m */,
+				AA687FC6230A4F360040F133 /* Main.storyboard */,
+				AA687FC9230A4F370040F133 /* Assets.xcassets */,
+				AA687FCB230A4F370040F133 /* LaunchScreen.storyboard */,
+				AA687FCE230A4F370040F133 /* Info.plist */,
+				AA687FCF230A4F370040F133 /* main.m */,
+			);
+			path = "UIActivityIndicatorView的使用";
+			sourceTree = "<group>";
+		};
+		AA687FD8230A4F370040F133 /* UIActivityIndicatorView的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AA687FD9230A4F370040F133 /* UIActivityIndicatorView___Tests.m */,
+				AA687FDB230A4F370040F133 /* Info.plist */,
+			);
+			path = "UIActivityIndicatorView的使用Tests";
+			sourceTree = "<group>";
+		};
+		AA687FE3230A4F370040F133 /* UIActivityIndicatorView的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA687FE4230A4F370040F133 /* UIActivityIndicatorView___UITests.m */,
+				AA687FE6230A4F370040F133 /* Info.plist */,
+			);
+			path = "UIActivityIndicatorView的使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA687FBC230A4F360040F133 /* UIActivityIndicatorView的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA687FE9230A4F370040F133 /* Build configuration list for PBXNativeTarget "UIActivityIndicatorView的使用" */;
+			buildPhases = (
+				AA687FB9230A4F360040F133 /* Sources */,
+				AA687FBA230A4F360040F133 /* Frameworks */,
+				AA687FBB230A4F360040F133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIActivityIndicatorView的使用";
+			productName = "UIActivityIndicatorView的使用";
+			productReference = AA687FBD230A4F360040F133 /* UIActivityIndicatorView的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA687FD4230A4F370040F133 /* UIActivityIndicatorView的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA687FEC230A4F370040F133 /* Build configuration list for PBXNativeTarget "UIActivityIndicatorView的使用Tests" */;
+			buildPhases = (
+				AA687FD1230A4F370040F133 /* Sources */,
+				AA687FD2230A4F370040F133 /* Frameworks */,
+				AA687FD3230A4F370040F133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA687FD7230A4F370040F133 /* PBXTargetDependency */,
+			);
+			name = "UIActivityIndicatorView的使用Tests";
+			productName = "UIActivityIndicatorView的使用Tests";
+			productReference = AA687FD5230A4F370040F133 /* UIActivityIndicatorView的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA687FDF230A4F370040F133 /* UIActivityIndicatorView的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA687FEF230A4F370040F133 /* Build configuration list for PBXNativeTarget "UIActivityIndicatorView的使用UITests" */;
+			buildPhases = (
+				AA687FDC230A4F370040F133 /* Sources */,
+				AA687FDD230A4F370040F133 /* Frameworks */,
+				AA687FDE230A4F370040F133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA687FE2230A4F370040F133 /* PBXTargetDependency */,
+			);
+			name = "UIActivityIndicatorView的使用UITests";
+			productName = "UIActivityIndicatorView的使用UITests";
+			productReference = AA687FE0230A4F370040F133 /* UIActivityIndicatorView的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA687FB5230A4F360040F133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "刘金萌";
+				TargetAttributes = {
+					AA687FBC230A4F360040F133 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					AA687FD4230A4F370040F133 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AA687FBC230A4F360040F133;
+					};
+					AA687FDF230A4F370040F133 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = AA687FBC230A4F360040F133;
+					};
+				};
+			};
+			buildConfigurationList = AA687FB8230A4F360040F133 /* Build configuration list for PBXProject "UIActivityIndicatorView的使用" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA687FB4230A4F360040F133;
+			productRefGroup = AA687FBE230A4F360040F133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA687FBC230A4F360040F133 /* UIActivityIndicatorView的使用 */,
+				AA687FD4230A4F370040F133 /* UIActivityIndicatorView的使用Tests */,
+				AA687FDF230A4F370040F133 /* UIActivityIndicatorView的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA687FBB230A4F360040F133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA687FCD230A4F370040F133 /* LaunchScreen.storyboard in Resources */,
+				AA687FCA230A4F370040F133 /* Assets.xcassets in Resources */,
+				AA687FC8230A4F360040F133 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA687FD3230A4F370040F133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA687FDE230A4F370040F133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA687FB9230A4F360040F133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA687FC5230A4F360040F133 /* ViewController.m in Sources */,
+				AA687FD0230A4F370040F133 /* main.m in Sources */,
+				AA687FC2230A4F360040F133 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA687FD1230A4F370040F133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA687FDA230A4F370040F133 /* UIActivityIndicatorView___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA687FDC230A4F370040F133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA687FE5230A4F370040F133 /* UIActivityIndicatorView___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA687FD7230A4F370040F133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA687FBC230A4F360040F133 /* UIActivityIndicatorView的使用 */;
+			targetProxy = AA687FD6230A4F370040F133 /* PBXContainerItemProxy */;
+		};
+		AA687FE2230A4F370040F133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA687FBC230A4F360040F133 /* UIActivityIndicatorView的使用 */;
+			targetProxy = AA687FE1230A4F370040F133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA687FC6230A4F360040F133 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA687FC7230A4F360040F133 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA687FCB230A4F370040F133 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA687FCC230A4F370040F133 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA687FE7230A4F370040F133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA687FE8230A4F370040F133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA687FEA230A4F370040F133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIActivityIndicatorView的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIActivityIndicatorView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA687FEB230A4F370040F133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIActivityIndicatorView的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIActivityIndicatorView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA687FED230A4F370040F133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIActivityIndicatorView的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIActivityIndicatorView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIActivityIndicatorView的使用.app/UIActivityIndicatorView的使用";
+			};
+			name = Debug;
+		};
+		AA687FEE230A4F370040F133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIActivityIndicatorView的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIActivityIndicatorView---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIActivityIndicatorView的使用.app/UIActivityIndicatorView的使用";
+			};
+			name = Release;
+		};
+		AA687FF0230A4F370040F133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIActivityIndicatorView的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIActivityIndicatorView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIActivityIndicatorView的使用";
+			};
+			name = Debug;
+		};
+		AA687FF1230A4F370040F133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83RGGAXFN4;
+				INFOPLIST_FILE = "UIActivityIndicatorView的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "liujinmeng.UIActivityIndicatorView---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UIActivityIndicatorView的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA687FB8230A4F360040F133 /* Build configuration list for PBXProject "UIActivityIndicatorView的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA687FE7230A4F370040F133 /* Debug */,
+				AA687FE8230A4F370040F133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA687FE9230A4F370040F133 /* Build configuration list for PBXNativeTarget "UIActivityIndicatorView的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA687FEA230A4F370040F133 /* Debug */,
+				AA687FEB230A4F370040F133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA687FEC230A4F370040F133 /* Build configuration list for PBXNativeTarget "UIActivityIndicatorView的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA687FED230A4F370040F133 /* Debug */,
+				AA687FEE230A4F370040F133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA687FEF230A4F370040F133 /* Build configuration list for PBXNativeTarget "UIActivityIndicatorView的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA687FF0230A4F370040F133 /* Debug */,
+				AA687FF1230A4F370040F133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA687FB5230A4F360040F133 /* Project object */;
+}
