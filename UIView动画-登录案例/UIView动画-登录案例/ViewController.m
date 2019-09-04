@@ -46,9 +46,14 @@
         [UIView animateWithDuration:2.0 animations:^{
             self.passwork.center = CGPointMake(self.view.center.x, self.passwork.center.y);
         } completion:^(BOOL finished) {
+            [UIView animateWithDuration:3.0 delay:0 usingSpringWithDamping:0.3 initialSpringVelocity:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+                self.loginBtn.center = CGPointMake(self.view.center.x, 460);
+            } completion:nil];
+            /*
             [UIView animateWithDuration:2.0 animations:^{
                 self.loginBtn.center = CGPointMake(self.view.center.x, 460);
             }];
+             */
         }];
     }];
 }

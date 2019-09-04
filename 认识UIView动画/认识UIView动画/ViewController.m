@@ -32,7 +32,7 @@
     self.redView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
     self.redView.backgroundColor = [UIColor redColor];
     
-    // [self.view addSubview:self.redView];
+    [self.view addSubview:self.redView];
     
 }
 
@@ -83,6 +83,7 @@
     */
     
     // transform
+    /*
     [UIView animateWithDuration:3.0 animations:^{
         // Make 相对于原始位置
         // 相对上一次位置
@@ -98,6 +99,15 @@
         // Rotation 旋转
         // self.pinWheel.transform = CGAffineTransformMakeRotation(M_PI_2);
         self.pinWheel.transform = CGAffineTransformRotate(self.pinWheel.transform, M_PI_2);
+        
+    } completion:nil];
+    */
+    
+    // 弹簧动画
+    // usingSpringWithDamping 弹性 值越趋近于零弹性越大，越趋近于1越没什么弹性
+    [UIView animateWithDuration:2.0 delay:0 usingSpringWithDamping:0.1 initialSpringVelocity:10 options:UIViewAnimationOptionCurveLinear animations:^{
+        
+        self.redView.center = self.view.center;
         
     } completion:nil];
 }
